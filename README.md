@@ -13,21 +13,21 @@ This is a C implementation of the classic Mastermind game. The goal of the game 
 - Option to play the game again after completing a round.
 ```
 ## Getting Started
-Running the Game
-    To run the compiled game, use the following command:
-        $>./Mastermind 
+Running the Game <br />
+    To run the compiled game, use the following command: <br />
+        $>./Mastermind <br />
 
 Command-Line Flags
-    -c [code]: Specify a custom 4-digit secret code with unique digits.
-    -t [attempts]: Specify the maximum number of attempts allowed.
+    -c [code]: Specify a custom 4-digit secret code with unique digits. <br />
+    -t [attempts]: Specify the maximum number of attempts allowed. <br />
 
-Examples
-    Run the game with a custom secret code:
-        $>./mastermind -c 1234
-    Run the game with a specified number of attempts:
-        $>./mastermind -t 15
-    Run the game with both custom code and attempts:
-        $>./mastermind -c 1234 -t 15
+Examples <br />
+    Run the game with a custom secret code: <br />
+        $>./mastermind -c 1234 <br />
+    Run the game with a specified number of attempts: <br />
+        $>./mastermind -t 15 <br />
+    Run the game with both custom code and attempts: <br />
+        $>./mastermind -c 1234 -t 15 <br />
 
 Game Instructions
 1. The game will prompt you to guess the 4-digit secret code.
