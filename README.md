@@ -27,11 +27,11 @@ Examples <br />
     Run the game with a custom secret code:
     ```
     $>./Mastermind -c 1234
-    ```
+    ```<br />
     Run the game with a specified number of attempts:
     ```
     $>./Mastermind -t 15
-    ```
+    ```<br />
     Run the game with both custom code and attempts:
     ```
     $>./Mastermind -c 1234 -t 15
