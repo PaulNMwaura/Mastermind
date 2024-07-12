@@ -18,8 +18,8 @@ Running the Game
         $>./Mastermind 
 
 Command-Line Flags
-    -c <code>: Specify a custom 4-digit secret code with unique digits.</code>
-    -t <attempts>: Specify the maximum number of attempts allowed.</attempts>
+    -c [code]: Specify a custom 4-digit secret code with unique digits.
+    -t [attempts]: Specify the maximum number of attempts allowed.
 
 Examples
     Run the game with a custom secret code:
