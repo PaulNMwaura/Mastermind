@@ -19,7 +19,7 @@ Running the Game <br />
     $>./Mastermind 
     ```
 
-Command-Line Flags
+Command-Line Flags <br />
     -c [code]: Specify a custom 4-digit secret code with unique digits. <br />
     -t [attempts]: Specify the maximum number of attempts allowed. <br />
 
