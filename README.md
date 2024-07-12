@@ -14,9 +14,9 @@ This is a C implementation of the classic Mastermind game. The goal of the game 
 ```
 ## Getting Started
 Running the Game <br />
-    To run the compiled game, use the following command: <br />
+    To run the compiled game, use the following command:
     ```sh
-        $>./Mastermind <br />
+        $>./Mastermind 
     ```
 
 Command-Line Flags
@@ -24,17 +24,17 @@ Command-Line Flags
     -t [attempts]: Specify the maximum number of attempts allowed. <br />
 
 Examples <br />
-    Run the game with a custom secret code: <br />
+    Run the game with a custom secret code:
     ```sh
-        $>./mastermind -c 1234 <br />
+        $>./mastermind -c 1234
     ```
-    Run the game with a specified number of attempts: <br />
+    Run the game with a specified number of attempts:
     ```sh
-        $>./mastermind -t 15 <br />
+        $>./mastermind -t 15
     ```
-    Run the game with both custom code and attempts: <br />
+    Run the game with both custom code and attempts:
     ```sh
-        $>./mastermind -c 1234 -t 15 <br />
+        $>./mastermind -c 1234 -t 15
     ```
 
 Game Instructions
