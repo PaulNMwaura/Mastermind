@@ -26,15 +26,15 @@ Command-Line Flags <br />
 Examples <br />
     Run the game with a custom secret code:
     ```
-    $>./mastermind -c 1234
+    $>./Mastermind -c 1234
     ```
     Run the game with a specified number of attempts:
     ```
-    $>./mastermind -t 15
+    $>./Mastermind -t 15
     ```
     Run the game with both custom code and attempts:
     ```
-    $>./mastermind -c 1234 -t 15
+    $>./Mastermind -c 1234 -t 15
     ```
 
 Game Instructions
