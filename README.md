@@ -15,7 +15,9 @@ This is a C implementation of the classic Mastermind game. The goal of the game 
 ## Getting Started
 Running the Game <br />
     To run the compiled game, use the following command: <br />
+    ```sh
         $>./Mastermind <br />
+    ```
 
 Command-Line Flags
     -c [code]: Specify a custom 4-digit secret code with unique digits. <br />
@@ -23,11 +25,17 @@ Command-Line Flags
 
 Examples <br />
     Run the game with a custom secret code: <br />
+    ```sh
         $>./mastermind -c 1234 <br />
+    ```
     Run the game with a specified number of attempts: <br />
+    ```sh
         $>./mastermind -t 15 <br />
+    ```
     Run the game with both custom code and attempts: <br />
+    ```sh
         $>./mastermind -c 1234 -t 15 <br />
+    ```
 
 Game Instructions
 1. The game will prompt you to guess the 4-digit secret code.
